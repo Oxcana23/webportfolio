@@ -5,22 +5,32 @@
         font-family: 'Poppins', sans-serif;
 }
 
-
-nav {
-
+nav .navbar-expand{
+-sm|-md|-lg|-xl
         top: 0;
         }
 
 .right-nav {
-        display: inline-block; 
-        float: right;
-        padding-right: 20px;}
+        display: flex; 
+        float: center;
+        padding-right: 30px;
+        justify-content: space-evenly;
+}
+
+
+.right-nav a {      
+        color: black;
+        background: #fff;
+        text-decoration: none;
+        border-radius: 20px;
+        letter-spacing: 1px;
+        padding: 5px 15px;
+}
 
 nav {
         padding: 0.8rem;
         margin-bottom: 2rem;
         list-style-type: none;
-        background-color: darkgrey;
         }
 
 nav .nav, nav .nav-logo {
@@ -37,7 +47,17 @@ nav .nav, nav .nav-logo {
         background-size: 100%;
         background-position: center top;
         background-attachment: scroll;
+        max-width: 100%;
         }
+
+.container {
+        margin-inline: auto;
+        width: min(90%, 70.5rem);
+}
+.logo {
+        display: flex; 
+        float: center;
+}
 
 .media-icons {
 	display: flex;
