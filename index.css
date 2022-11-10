@@ -1,79 +1,107 @@
+/*RESET*/
 * {
-        margin: 0;
+  margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-        font-family: 'Poppins', sans-serif;
 }
 
-nav .navbar-expand{
--sm|-md|-lg|-xl
-        top: 0;
-        }
-
-.right-nav {
-        display: flex; 
-        float: center;
-        padding-right: 30px;
-        justify-content: space-evenly;
+body {
+  font-family: 'Comfortaa', sans-serif;
+  background: #00092A;
+  color: #E5CFA8;
 }
 
 
-.right-nav a {      
-        color: black;
-        background: #fff;
-        text-decoration: none;
-        border-radius: 20px;
-        letter-spacing: 1px;
-        padding: 5px 15px;
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-nav {
-        padding: 0.8rem;
-        margin-bottom: 2rem;
-        list-style-type: none;
-        }
-
-nav .nav, nav .nav-logo {
-        margin: 0.5rem;
-        display: inline-block;
-        }
-
-
-.background {
-        min-height: 30rem;
-        /*background-color: gray;*/
-        background-image: url(images/bg.png);
-        background-repeat: no-repeat;
-        background-size: 100%;
-        background-position: center top;
-        background-attachment: scroll;
-        max-width: 100%;
-        }
-
-.container {
-        margin-inline: auto;
-        width: min(90%, 70.5rem);
-}
-.logo {
-        display: flex; 
-        float: center;
+.navbar .menu li{
+  list-style: none;
+  display: inline-block;
+  /*float: right;*/
 }
 
-.media-icons {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin: auto;
+.navbar .menu li a{
+  color: #9C7C42;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 25px;
+  transition: color 0.3s ease;
 }
 
-.media-icons a{
-	position: relative;
-	color: darkblue;
-	margin: 60px;
-	font-size: 40px;
+
+.menu li a{
+	color: #AE8625;
+	text-decoration: none;
 }
 
-.media-icons a:hover{
-	transform: scale(1.5);
+.menu li a:hover{
+	color: #E5CFA8;
+	transition: .3s;
 }
+
+
+
+
+
+/*<!-- LANDING PAGE  -->*/
+
+h6 {
+	font-family: 'Lobster', cursive;
+	font-family: 'Orbitron', sans-serif;
+	font-family: 'Tangerine', cursive;
+	color: #C5A87C;	
+	padding-bottom: 30px;
+	font-size: 4em;
+	font-weight: 600;
+	letter-spacing: 0.1em;
+}
+
+
+h1{
+	font-family: 'Lobster', cursive;
+	font-family: 'Orbitron', sans-serif;
+	font-weight: bold;
+	letter-spacing: 10px;
+	color: #9C7C42;
+}
+
+h4 {
+	color: 	#AE8625;
+	font-weight: bold;
+	text-align: center;
+}
+
+.name {
+  background-color: #C5A87C;
+  background-image: linear-gradient(180deg, #C5A87C, #AE8625);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+/*<!-- FOOTER  -->*/
+footer {
+	color: 	#AE8625;
+}
+.media {
+  width:auto;
+  border:none;
+  display:block;
+  bottom: 0;
+}
+
+.media i:hover{
+	color: #E5CFA8;
+	transition: .3s;
+}
+
+
+
+
+
 
